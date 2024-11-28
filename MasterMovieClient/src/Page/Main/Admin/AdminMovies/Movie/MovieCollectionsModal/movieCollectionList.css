@@ -1,0 +1,29 @@
+.modalButton {
+    width: 50px;
+}
+
+.modalPosition {
+    margin-top: 10%;
+}
+
+.mainModalTheme {
+    color: white;
+    background-color: #222d33;
+}
+
+.collectionName {
+    margin-left: 20px;
+    word-wrap: break-word;
+}
+
+.collectionModalBody {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    padding: 10px;
+    /*height: 400px;*/
+    background-color: #002233;
+    border-radius: 10px;
+}

@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+
+.background {
+    width: 100%;
+    background-color: #002233;
+}
+
+.header {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #222d33;
+    border-radius: 10px;
+}
+
+.mainBgColor{
+    background-color:#002233;
+    width: 100%;
+}
+.secondaryBgColor{
+    background-color: #fff;
+    width: 100%;
+}
+.movies-container img{
+    width: 350px;
+    height: 550px;
+    margin: 25px 12px 4px 15px;
+    border-radius: 18px;
+}
+
+.movies-container h3, .movies-container img{
+    cursor: pointer;
+    transition: .7s;
+}
+.movies-container img:hover{
+    transform: scale(1.05);
+}
+#container{
+    position: relative;
+}
+
+#playIcon{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    visibility: visible;
+    z-index: 100;
+    cursor: pointer;
+}
+
+

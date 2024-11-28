@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+
+.movies-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 240px;
+    margin-left: 80px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #002233;
+}
+
+.header {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.itemsBackground {
+    background-color:#002233;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+}
+
+.listPadding {
+    background-color: #002233;
+    color: white;
+    padding-left: 40px;
+    padding-top: 25px;
+    height: 1000px;
+}
+.categoryHeader {
+    font-size: 24px;
+    padding-bottom: 10%;
+    padding-left: 20px;
+}
+.collectionHeader {
+    margin-top: 10%;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.list {
+    width: 200px;
+}
+
+
